@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;     /* resseting everything to 0 */
+
+}
+
+body{
+    /*background-color: black;
+    color: white; */
+}
+
+.left{
+    width: 25vw;    /* divinding th page into 25 and 75*/
+    padding: 10px;   
+}
+
+.right{
+    width: 75vw;
+}
+
+.home{
+}
+
+.home ul li{
+    width: 14px;               
+    list-style: none;       /* removing the dots in list*/
+    display: flex;        /*icon of home and word home are in one line*/
+    gap: 15px;             /*increasing gap b/w icon and word*/
+    padding-top 14px;         
+}
