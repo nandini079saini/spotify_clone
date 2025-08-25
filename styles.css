@@ -28,3 +28,24 @@ body{
     gap: 15px;             /*increasing gap b/w icon and word*/
     padding-top 14px;         
 }
+
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+.library{
+    min-height: 50vh;
+}
+.footer{
+    display: flex;
+    color: grey;
+    font-size: 10px;
+}
+
+.footer a{
+    color:grey;
+}
